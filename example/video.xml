@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<videoSource>
+	<meta masterVideoId="EE7C1EE2A3BAD6FE058F757BD6F9E80411AA" contentId="NEXT_ED_17747" serviceId="2016" count="51" interfaceLang="ko_KR" home="https://www.edwith.org" countryCode="US">
+		<subject link="https://www.edwith.org/datascience/lecture/33893#_movie_17747"><![CDATA[MIT6_0002F16_lec06_300k.mp4]]></subject>
+		<cover type="single">
+			<source><![CDATA[https://video-phinf.pstatic.net/20181126_102/1543208564198oiqmA_JPEG/7bada4c4-f138-11e8-acee-505dacfbaa5c_03.jpg]]></source>
+		</cover>
+		<provider name="NAVER" />
+		
+		<share count="0" usable="true" onlyInnerServices="false">
+		
+			<service type="data"><![CDATA[https://global.apis.naver.com/rmcnmv/rmcnmv/vod/share/getShareInfo?vid=EE7C1EE2A3BAD6FE058F757BD6F9E80411AA&inKey=V1231302f0a795c6b37125c60c8bdc371d921d9b8c93f55e18353ff1ca48b7f6c16005c60c8bdc371d921]]></service>
+		</share>		
+		<user id="test_user" name="edwith" link="https://www.edwith.org"/>
+		<relationVideo type="url"></relationVideo>
+
+
+		
+		<apiList> 
+			
+            <api name="count"><![CDATA[https://global.apis.naver.com/rmcnmv/rmcnmv/PlayCount.json?v=1&key=V1231302f0a795c6b37125c60c8bdc371d921d9b8c93f55e18353ff1ca48b7f6c16005c60c8bdc371d921&tid=Nk3P2sPS4jTBedVvkc3AGj&tcs=7670&vid=EE7C1EE2A3BAD6FE058F757BD6F9E80411AA&cc=US&sid=2016&inout=in]]></api>
+            
+            <api name="playTime"><![CDATA[https://global.apis.naver.com/videostat/videostat/PlayTime.json?v=1&tid=Nk3P2sPS4jTBedVvkc3AGj&tcs=7670]]></api>
+            
+            <api name="share"><![CDATA[https://global.apis.naver.com/rmcnmv/rmcnmv/vod/share/getShareInfo?vid=EE7C1EE2A3BAD6FE058F757BD6F9E80411AA&inKey=V1231302f0a795c6b37125c60c8bdc371d921d9b8c93f55e18353ff1ca48b7f6c16005c60c8bdc371d921]]></api>
+            
+            <api name="playQuality"><![CDATA[https://apis.naver.com/videostat/videostat/playQuality.json]]></api>
+            
+        </apiList>
+		
+		
+		
+		<display>
+			
+			<component name="screenClickPlay" visible="true" />
+			
+			<component name="subtitles" visible="true" />
+			
+			<component name="createTime" visible="false" />
+			
+			<component name="logo" visible="true" />
+			
+			<component name="playbackRate" visible="true" />
+			
+			<component name="logoDimmed" visible="true" />
+			
+			<component name="scrap" visible="false" />
+			
+			<component name="thumbnails" visible="true" />
+			
+			<component name="vodinfo" visible="false" />
+			
+			<component name="commentCount" visible="true" />
+			
+			<component name="script" visible="false" />
+			
+			<component name="setting" visible="true" />
+			
+			<component name="fullscreen" visible="true" />
+			
+			<component name="title" visible="true" />
+			
+			<component name="playCount" visible="true" />
+			
+			<component name="thumbnail" visible="true" />
+			
+			<component name="linkCount" visible="false" />
+			
+			<component name="seekable" visible="true" />
+			
+			<component name="subtitle" visible="true" />
+			
+			<component name="quality" visible="true" />
+			
+			<component name="seekingTime" visible="true" />
+			
+			<component name="expand" visible="true"  value="none"/>
+			
+			<component name="badge" visible="true" />
+			
+			<component name="writer" visible="true" />
+			
+			<component name="playButton" visible="true" />
+			
+		</display>
+		
+		<rules name="view">
+			<rule version="1.0" type="splitVod" fadeInTime="2.0" fadeOutTime="2.0" playbackRewindTime="5.0"/>
+			<rule version="1.0" type="preloadingMidAd" offset="10.0" showNotice="true" noticeTime="5.0"/>
+			
+			<rule version="1.0" type="adFreeZone" zone="end" offset="420.0"/>
+			
+		</rules>
+		
+		
+		<addons>
+		
+			<addon name="videoSlideApp" type="externalExecution"><![CDATA[vid=EE7C1EE2A3BAD6FE058F757BD6F9E80411AA]]></addon>
+		
+		</addons>
+		
+	</meta>
+	
+	<videos type="video" canAutoPlay="true" dimension="normal" hasPreview="false" isPreview="false" >
+		<video id="EE7C1EE2A3BAD6FE058F757BD6F9E80411AA" useP2P="false" duration="3004.203"  width="480" height="270" type="avc1" size="112226624" isDefault="true"  >
+			<encodingOption id="270P_COMMON" codec="video" name="270P" profile="BASE"  isEncodingComplete="true" width="480" height="270" videoBitrate="500" completePercentage="100"/>
+			<bitrate video="168.0" audio="128.0"/>
+			<p2pMetaUrl></p2pMetaUrl>
+			<p2pUrl></p2pUrl>
+			<source><![CDATA[https://g-vod-naver.pstatic.net/mooc/global/read/next-mooc_2018_11_26_36/8154c9b9-f138-11e8-916a-246e96398ca5.mp4?__gda__=1548815325_c5264cb7fa0631df225a4e095f7d8809]]></source>
+			
+		</video>
+		<video id="EE7C1EE2A3BAD6FE058F757BD6F9E80411AA" useP2P="false" duration="3004.203"  width="480" height="270" type="avc1" size="112226624" isDefault="true"  >
+
+			<source>source2</source>
+			
+		</video>
+	</videos>
+	
+	<streams>
+	
+		<stream type="HLS" enableABR="off">
+		
+		<keys>
+		
+			<key type="param" name="__gda__"><![CDATA[1548815325_3a98eb626bdbb4be84d02c6498b83e52]]></key>
+		
+		</keys>
+		
+			<source><![CDATA[https://g-vod-naver.pstatic.net/mooc/global/read/next-mooc_2018_11_26_23/hls/fb88f782-f138-11e8-916a-246e96398ca5.m3u8]]></source>			
+			
+		
+			<videos type="stream">
+				<video id="EE7C1EE2A3BAD6FE058F757BD6F9E80411AA">
+						<encodingOption id="270P_COMMON" name="270P" width="480" height="270" videoBitrate="500"/>
+						<source><![CDATA[https://g-vod-naver.pstatic.net/mooc/global/read/next-mooc_2018_11_26_23/hls/e0ae6bf2-f138-11e8-916a-246e96398ca5.m3u8]]></source>	
+					</video>
+				
+			</videos>
+			
+		</stream>
+	
+	</streams>
+	
+	<captions captionLang="ko_KR">
+		
+		<caption language="ko" country="KR" locale="ko_KR" label="한국어" type="cp" ><![CDATA[https://caption-rmcnmv.pstatic.net/mooc/global_meta/read/2018_11_26/a6b0d7f9-f138-11e8-9946-0050569c085d-1543208625188_ko_KR_cp.vtt?__gda__=1548815325_80a28a1f2eff67302ae43f9d666d5b39]]></caption>
+		
+	</captions>
+	
+	
+	<thumbnails>
+		
+		<thumbnail time="300.0"><![CDATA[https://video-phinf.pstatic.net/20181126_248/15432085639517Ewj2_JPEG/7bada4c4-f138-11e8-acee-505dacfbaa5c_02.jpg?type=s80]]></thumbnail>
+		
+		<thumbnail time="901.0"><![CDATA[https://video-phinf.pstatic.net/20181126_39/15432085643544xazC_JPEG/7bada4c4-f138-11e8-acee-505dacfbaa5c_04.jpg?type=s80]]></thumbnail>
+		
+		<thumbnail time="1502.0"><![CDATA[https://video-phinf.pstatic.net/20181126_291/1543208564861IaUgv_JPEG/7bada4c4-f138-11e8-acee-505dacfbaa5c_06.jpg?type=s80]]></thumbnail>
+		
+		<thumbnail time="2103.0"><![CDATA[https://video-phinf.pstatic.net/20181126_297/1543208565105kCctf_JPEG/7bada4c4-f138-11e8-acee-505dacfbaa5c_08.jpg?type=s80]]></thumbnail>
+		
+		<thumbnail time="2704.0"><![CDATA[https://video-phinf.pstatic.net/20181126_59/15432085653932jREB_JPEG/7bada4c4-f138-11e8-acee-505dacfbaa5c_10.jpg?type=s80]]></thumbnail>
+		
+	</thumbnails>
+	
+	
+	<sprites>
+		
+		<sprite type="m_10x10">
+			<page total="4" row="10" column="10"/>
+			<interval type="millisecond">10000</interval>
+			<thumbnail count="301" width="160" height="90"/>
+			<source patternType="SEQUENCE_PATTERN"><![CDATA[https://resources-rmcnmv.pstatic.net/mooc/vod_resources/read/next-mooc_2018_11_26_66/e0b43854-f138-11e8-916a-246e96398ca5/sprite_f2f2efaa-f138-11e8-9583-246e963a3ab9_#.jpg]]></source>
+		</sprite>
+		
+	</sprites>
+	
+	
+	
+</videoSource>
+ 
