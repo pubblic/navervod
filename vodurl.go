@@ -17,5 +17,5 @@ func Playurl(vid, key string, q url.Values) string {
 	u := *baseurl
 	u.Path += key
 	u.RawQuery = q.Encode()
-	return u.Encode()
+	return u.String()
 }
